@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    font-family: 'Poppins', serif;
+}
+
+li{
+    list-style: none;
+    color: whitesmoke;
+}
+.header-content{
+   background-image: url(./Images/header-bg.png);
+   width: 100vw;
+   height: 100vh;
+   background-position: bottom;
+   background-size: cover;
+}
+
+.home-section{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins' , serif;
+}
+
+.home-section h2{
+    color: whitesmoke;
+    font-size: 30px;
+    font-weight : 500;
+}
+
+.line{
+    width: 10rem;
+    height: 0.2rem;
+    background-color: rgb(228, 20, 62);
+    border-radius: 0.2rem;
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+}
+
+.home-section h1{
+    color: whitesmoke;
+    margin: 1.5rem 0;
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.btn{
+    text-decoration: none;
+    background-color: rgb(228, 20, 62);
+    color : whitesmoke;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.navbar{
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    color: whitesmoke;
+    font-size: 1rem;
+    font-family: 'Poppins' , serif;
+}
+
+.nav-items{
+    display: flex;
+    align-items: center;
+}
+
+.nav-items li {
+    margin: 0 30px;
+    font-size: 15px;
+}
+.nav-items a{
+    text-decoration: none;
+}
+
+.menu-btn{
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+    display: none;
+}
+
+.events{
+    width: 80%;
+    margin: 80px auto;
+}
+
+.title{
+    font-family: 'Poppins' , serif;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(57, 57, 174);
+}
+
+.title h1{
+    margin: 10px 0;
+}
+
+.title div{
+    margin: 0 34vw;
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+    gap : 4rem;
+    margin: 3rem;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-family: 'Poppins' , serif;
+}
+
+.col h2{
+    font-size: 1.5rem;
+    color: rgb(57, 57, 174);
+}
+
+.col p{
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 500;
+    color: 7c7c7c;
+}
+
+.col button{
+    border: none;
+    background-color: rgb(228, 20, 62);;
+    color: whitesmoke;
+    padding: 5px 10px;
+    border-radius: 2rem;
+}
+.section-img{
+    width: 50pvw;
+    height: 50vh;
+    object-fit: cover;
+}
+
+
+.section2-col{
+    position: relative;
+    left: 0;
+    top : 0;
+    font-family: 'Poppins' , serif;
+}
+
+.section2-col img{
+    width: 100vw;
+    height :  100vh;
+    object-fit: cover;
+}
+
+.section2-col h2{
+    position: absolute;
+    top : 8rem;
+    left : 8rem;
+    color: whitesmoke;
+    font-size: 2.6rem;
+    font-weight: 550;
+    
+}
+
+.section2-col p{
+    position: absolute;
+    top : 18rem;
+    left: 8rem;
+    color: whitesmoke;
+}
+
+.section2-col button{
+    position: absolute;
+    top : 27rem;
+    left : 7.5rem;
+    border : none;
+}
+
+.section2-col .line{
+    position: absolute;
+    top : 12rem;
+    left: 8.1rem;
+}
+
+.upcoming-tours{
+    font-family: 'Poppins', serif;
+    display: flex;
+    justify-content: space-around;
+} 
+
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1rem;
+    margin-top: 10rem;
+    margin-left: 5rem;
+}
+
+.text p{
+    width: 25rem
+}
+.text button{
+    border: none;
+    color: whitesmoke;
+    margin-top: 2rem;
+}
+
+.upcoming-tours h2{
+    color: rgb(57, 57, 174);
+    text-decoration: 0.1rem underline blue;
+    line-height: 1.8;
+    font-size: 2rem;
+}
+
+.image-gallery{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 1rem;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+  margin-left: 2.5rem;
+
+}
+
+.image-gallery img{
+    width: 20rem;
+    height: 20rem;
+    object-fit: cover;
+
+}
+
+.footer{
+    background-color: darkslategrey;
+    width: 100vw;
+    height: 20vh;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Poppins',serif;
+}
+
+.footer p{
+    margin-top: 1.5rem;
+}
+
+
+
+@media (max-width : 860px){
+
+    html body{
+        overflow-x: hidden;
+    }
+    .menu-btn{
+        display: block;
+    }
+    .navbar{
+        padding: 0;
+    }
+
+    .logo{
+        position: absolute;
+        top : 2.5rem;
+        left: 2.5rem;
+    }
+
+    .nav-items{
+        flex-direction: column;
+        width: 100vw;
+        height: 100vh;
+        justify-content: center;
+        background-color: rgb(131, 118, 144);
+        margin-top: -900px;
+        transition: all 0.5s ease;
+    }
+
+    .mobile-menu{
+        margin: 0;
+        border-radius: 0 0 100px 100px;
+
+        .btn{
+            padding: 0 20px;
+        }
+    }
+
+    .nav-items li{
+        margin: 1.5rem auto;
+    }
+
+    .btn{
+       padding: 5px 10px;
+    }
+
+   .title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+
+    .row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 60px;
+    }
+
+    .section-img{
+        width: 70vw;
+        height: 60vh;
+        object-fit: cover;
+        border-radius: 1rem;
+        box-shadow: 10px 10px 20px grey;
+        margin-bottom: 1rem;
+    }
+
+    .section2-col h2{
+        font-size: 30px;
+    }
+
+    .section2-col p{
+        font-size: 15px;
+        margin-top : -50px;
+    }
+
+    .upcoming-tours{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .image-gallery{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 60vw;
+    }
+
+    .image-gallery img{
+        min-width: 500px;
+        height: auto;
+        object-fit: contain;
+    }
+
+
+}
+
+img{
+    transition: transform 0.3s ease;
+}
+
+.hover-img:hover{
+    transform: scale(1.1);
+}
+
+button:hover{
+    background-color: white;
+    color: crimson;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(202, 128, 128, 0.463);
+}
+
+.btn:hover{
+    background-color: white;
+    color: crimson;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(202, 128, 128, 0.463);
+}
+
+.nav-items li:hover{
+    color: rgb(205, 86, 110);
+}

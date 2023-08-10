@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adventure Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <h1 class="logo">ADVENTURE</h1>
+      <ul class="nav-items"> 
+        <a href="#"><li>Home</li></a>
+        <a href="#"><li>About</li></a>
+        <a href="#"><li>Services</li></a>
+        <a href="#"><li>Projects</li></a>
+        <a href="#" class="btn"><li>Contact</li></a>
+      </ul>
+      <img src="./Images/menu-btn.png" alt="menu button icon" class="menu-btn hover-img">
+      
+    </nav>
+
+    <header class="header-content">
+        <div class="home-section">
+            <h2 class="subheading">Explore The Colorful World</h2>
+            <div class="line"></div>
+            <h1 class="heading">A WONDERFUL GIFT</h1>
+            <a href="#" class="btn">Learn More</a>
+        </div>
+    </header>
+
+    <section class="events">
+        <div class="title">
+            <h1>UPCOMING EVENTS</h1>
+            <div class="line"></div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <img src="./Images/img1.png" alt="A person on a mountain" class="section-img hover-img">
+                <h2>Everest Camp Trek</h2>
+                <p>Lorem ipsum dolor sit amet consectetur<br>
+                    elit. Architecto, nulla.</p>
+                <a href="#"><button >Learn More</button></a>
+            </div>
+
+            <div class="col">
+                <img src="./Images/img2.png" alt="A person on a mountain" class="section-img hover-img">
+                <h2>Working Holidays</h2>
+                <p>Lorem ipsum dolor sit amet consectetur <br>adipisicing elit. Architecto, nulla.</p>
+                <a href="#"><button >Learn More</button></a>
+            </div>
+        </div>
+    </section>
+    
+    <section class="section2">
+        <div class="section2-col">
+            <img src="./Images/bg2.png" alt="">
+            <h2>EXPLORE THE WORLD</h2>
+            <div class="line"></div>
+            <p>Lorem ipsum dolor, sit amet consectetur 
+            adipisicing elit. <br>Placeat, veritatis eveniet blanditiis 
+            ducimus facere dolore <br>amet illum velit, 
+            qui praesentium, aliquid consequatur nulla <br>cum 
+            asperiores fugit rerum perspiciatis sapiente soluta.
+            </p>
+            <button class="btn">Learn More</button>
+        </div>
+    </section>
+
+    <section class="upcoming-tours">
+        <div class="text">
+            <h2>UPCOMING <br>TOURS & <br>DESTINATION</h2>
+            <div class="line"></div>
+            <p>Lorem ipsum dolor sit amet consectetur 
+                <br>adipisicing elit. Natus dicta, alias corporis, deserunt 
+                <br>doloribus dolore enim sed assumenda nobis, 
+                <br>inventore pariatur tempore ab qui accusantium 
+                <br>nihil ea! Sapiente laboriosam quia alias 
+                <br>fuga, molestiae sequi fugiat?
+            </p>
+            <button class="btn">Learn More</button>
+        </div>
+        <div class="image-gallery">
+            <img src="./Images/img3.png" alt="" class="hover-img">
+            <img src="./Images/img4.png" alt="" class="hover-img">
+            <img src="./Images/img5.png" alt="" class="hover-img">
+            <img src="./Images/img6.png" alt="" class="hover-img">
+        </div>
+    </section>
+
+    <section class="footer">
+        <footer>
+            <p class="message">123 Fifth Avenue, NY 10160,New York, USA | Phone: 800-132-232 | Email: Contact@example.com</p>
+            <p class="copyright">Copyright &copy; 2023 Outdoor Adventure</p>
+        </footer>
+    </section>
+
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn');
+        const navLink = document.querySelector('.nav-items');
+
+        menuBtn.addEventListener('click',()=>{
+                navLink.classList.toggle('mobile-menu');
+        })
+    </script>
+</body>
+</html>
